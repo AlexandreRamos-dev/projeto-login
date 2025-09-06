@@ -39,14 +39,18 @@ grandes telas: acima 1281px
     }
 
     div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100vh;
     }
 
     div#formulario {
-        float: right;
+        float: left;
         width: 50%;
         height: 100%;
+    }
+
+    #formulario > p {
+        font-size: 2em;
     }
 }
